@@ -1,4 +1,4 @@
-const KeyApi = "e49f3301eec8b05cd4c34e7ae19165e5"
+const KeyApi = "" //Aqui vai a chave privada gerada na conta da OpenWeather
 
 function populartela(dados) {
         if (dados.cod == 200) {
