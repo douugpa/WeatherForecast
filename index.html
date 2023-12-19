@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  type="text/css" href="./css/style.css"/>
+        <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+        <script src="./scripts/main.js"></script>
+        <title>Previsão do Tempo</title>
+    </head>
+
+    <body>
+        <div class="card-previsao">
+
+            <input class="inome-cidade" placeholder="Digite o nome da Cidade"/>
+            <button class="btn-pesquisa" onclick="pesquisar()">
+                <img class="img-lupa" src="./assets/lupa.svg"/>
+            </button>
+
+            <div class="cidade-temperatura">
+                <h2 class="titulo-cidade">Informe a cidade!</h2>
+                <p class="temperatura">0ºC</p>
+            </div>
+
+            <div class="status-tempo">
+                <img class="img-tempo" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png"/>
+                <p class="titulo-status-tempo">Sem informação!</p>
+            </div>
+
+            <p class="umidade">Umidade: 0%</p>
+
+        </div>
+    </body>
+</html>

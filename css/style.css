@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.card-previsao {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 1.563rem;
+    padding: 1.563rem;
+    width: 95%;
+    max-width: 450px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 0.625rem;
+    border-radius: 1.563rem;
+    font-size: 1.25rem;
+    background-color: #7c7c7c2b;
+    color: #FFFFFF;
+    width: calc(100% - 3.7rem)
+}
+
+.btn-pesquisa {
+    border: none;
+    outline: none;
+    padding: 0.625rem;
+    border-radius: 3.125rem; 
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-lupa {
+    width: 1.25rem;
+}
+
+.cidade-temperatura {
+    margin-top: 1.875rem;
+}
+
+.titulo-cidade {
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.temperatura {
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin-top: 1.25rem;
+}
+
+.status-tempo {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+    gap: 1rem;
+}
+
+.titulo-status-tempo {
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #FFFFFF;
+    margin-top: 1.25rem;   
+}
